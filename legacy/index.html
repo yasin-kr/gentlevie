@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0845b7">
+  <title>GentleVie — The Art of Living Well</title>
+  <meta name="description" content="Stil, yaşam ve gündelik ritüeller üzerine bağımsız bir bakış. GentleVie'nin ilk sayısını keşfet: Yavaşlığın estetiği.">
+  <meta property="og:title" content="GentleVie — The Art of Living Well">
+  <meta property="og:description" content="Hayatı biraz yavaşlat. Stil, yaşam ve küçük keşifler üzerine bir dergi.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="tr_TR">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preload" href="assets/editorial-regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="assets/hero.webp" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script src="articles.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body data-theme="light">
+  <a class="skip-link" href="#journal">Yazılara geç</a>
+  <svg class="icon-definitions" xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="icon-arrow" viewBox="0 0 32 32"><path d="M5 16h22M17 5l10 11-10 11"/></symbol>
+    </defs>
+  </svg>
+  <header class="site-header" id="site-header">
+    <a href="#baslangic" class="wordmark" aria-label="GentleVie ana sayfa">gentle vie</a>
+    <span class="header-motto">THE ART OF LIVING WELL</span>
+    <button class="menu-toggle" id="menu-toggle" aria-haspopup="dialog" aria-expanded="false" aria-controls="site-menu"><span>Keşfet</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span></button>
+  </header>
+
+  <main>
+    <section class="journey" id="baslangic" aria-label="Yavaşlığın estetiği">
+      <div class="stage">
+        <article class="scene scene--hero" id="scene-0">
+          <div class="scene__visual">
+            <img src="assets/hero.webp" width="1536" height="1024" fetchpriority="high" alt="Masmavi denize açılan traverten kemer, keten kumaş ve havada asılı altın küre.">
+            <p class="hero-note">DAHA AZ GÜRÜLTÜ<br>DAHA ÇOK HİS</p>
+          </div>
+          <div class="scene__shade"></div>
+          <div class="scene__copy hero-copy">
+            <p class="eyebrow hero-eyebrow">LIFE <span>YAVAŞLIĞIN ESTETİĞİ</span></p>
+            <h1>Hayatı biraz<br><em>yavaşlat</em></h1>
+            <p class="scene__intro">Bir doku. Bir ışık. Bir his<br>Güzel yaşamak, küçük şeyleri fark etmekle başlar</p>
+            <button class="text-link" data-scene="1">Hikâyeyi keşfet <span class="round-arrow" aria-hidden="true"><svg class="arrow-icon arrow-icon--diagonal" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></span></button>
+          </div>
+        </article>
+        <article class="scene scene--ritual" id="scene-1" aria-hidden="true" inert>
+          <div class="scene__visual"><img src="assets/ritual.webp" width="1536" height="1024" alt="Güneşli taş yüzeyde seramik bir fincan, keten ve altın küre."></div>
+          <div class="scene__shade"></div>
+          <div class="scene__copy ritual-copy">
+            <p class="eyebrow">LIVING <span>—</span> GÜNDELİK RİTÜELLER</p>
+            <h2>Güzel olan,<br><em>ayrıntıda</em></h2>
+            <p class="scene__intro">Sabah ışığının düştüğü bir masa<br>Sevdiğin fincanın tanıdık dokusu<br>Kendine ayırdığın birkaç dakika</p>
+            <button class="text-link" data-article="living">Bir sabaha eşlik et <span class="round-arrow" aria-hidden="true"><svg class="arrow-icon arrow-icon--diagonal" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></span></button>
+          </div>
+        </article>
+        <article class="scene scene--horizon" id="scene-2" aria-hidden="true" inert>
+          <div class="scene__visual"><img src="assets/hero.webp" width="1536" height="1024" alt=""></div>
+          <div class="scene__shade"></div>
+          <div class="scene__copy horizon-copy">
+            <p class="eyebrow">SANA AİT BİR BAKIŞ</p>
+            <h2>Biraz daha az<br><em>Biraz daha sen</em></h2>
+            <p class="scene__intro">Stil, yaşam ve küçük keşifler üzerine</p>
+            <a href="#journal" class="text-link">İlk sayıyı aç <span class="round-arrow" aria-hidden="true"><svg class="arrow-icon arrow-icon--down" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></span></a>
+          </div>
+        </article>
+        <div class="stage-footer">
+          <span class="scroll-cue"><svg class="arrow-icon arrow-icon--down" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg> AŞAĞI KAYDIR</span>
+          <div class="scene-nav" role="group" aria-label="Görsel bölümler">
+            <button data-scene="0" class="is-active" aria-label="Birinci sahne: Yavaşla" aria-current="step">01</button>
+            <span class="scene-track" aria-hidden="true"><i></i></span>
+            <button data-scene="1" aria-label="İkinci sahne: Fark et">02</button>
+            <span class="scene-track" aria-hidden="true"><i></i></span>
+            <button data-scene="2" aria-label="Üçüncü sahne: Kendin ol">03</button>
+          </div>
+          <span class="stage-caption">YAVAŞLA &nbsp; / &nbsp; FARK ET &nbsp; / &nbsp; KENDİN OL</span>
+        </div>
+        <div class="journey-progress" aria-hidden="true"><i></i></div>
+      </div>
+    </section>
+
+    <section class="journal section-shell" id="journal" aria-labelledby="journal-title">
+      <div class="section-topline"><p class="eyebrow">GENTLEVIE JOURNAL</p><p class="eyebrow">SAYI 01 / BİR BAŞLANGIÇ</p></div>
+      <div class="journal-intro" data-reveal>
+        <h2 id="journal-title">Biraz daha<br><em>yakından</em></h2>
+        <div><p>Üzerine düşündüğümüz şeyler<br>Dokular, mekânlar ve arada kalan anlar</p><a class="understated-link" href="#stories">Bu sayıda <svg class="arrow-icon arrow-icon--down-left" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></a></div>
+      </div>
+      <div class="stories" id="stories">
+        <article class="story story--style" id="style" data-reveal>
+          <button class="story-open" data-article="style" aria-label="Az parçayla, kendin gibi yazısını oku">
+            <span class="story-image story-image--style"><img src="assets/style.webp" width="1536" height="1024" loading="lazy" alt="Ceviz sandalye üzerine bırakılmış fildişi keten ceket."><span class="image-arrow" aria-hidden="true"><svg class="arrow-icon arrow-icon--diagonal" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></span></span>
+            <span class="story-meta"><span>STYLE</span><span>2 DK OKUMA</span></span>
+            <h3>Az parçayla,<br><em>kendin gibi</em></h3>
+          </button>
+          <p>Renklerin, dokuların ve sana ait bir stilin peşinde</p>
+        </article>
+        <article class="story story--living" id="living" data-reveal>
+          <button class="story-open" data-article="living" aria-label="Bir sabahın küçük ritüelleri yazısını oku">
+            <span class="story-image story-image--living"><img src="assets/ritual.webp" width="1536" height="1024" loading="lazy" alt="Taş bir yüzey üzerindeki seramik kahve fincanı ve keten."><span class="image-arrow" aria-hidden="true"><svg class="arrow-icon arrow-icon--diagonal" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></span></span>
+            <span class="story-meta"><span>LIVING</span><span>2 DK OKUMA</span></span>
+            <h3>Bir sabahın<br><em>küçük ritüelleri</em></h3>
+          </button>
+          <p>Güne başlamadan önce, kendine ayırdığın o kısa an</p>
+        </article>
+        <article class="story story--journal" id="journal-story" data-reveal>
+          <button class="story-open" data-article="journal" aria-label="Bir yere yetişmeden yazısını oku">
+            <span class="story-image story-image--journal"><img src="assets/hero.webp" width="1536" height="1024" loading="lazy" alt="Mavi gökyüzüne ve denize açılan taş basamaklar."><span class="image-arrow" aria-hidden="true"><svg class="arrow-icon arrow-icon--diagonal" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></span></span>
+            <span class="story-text"><span class="story-meta"><span>JOURNAL</span><span>2 DK OKUMA</span></span><h3>Bir yere<br><em>yetişmeden</em></h3><span class="story-summary">Bir öğleden sonra. Birkaç yeni ayrıntı<br>Hiçbir yere acele etmeden</span><span class="understated-link">Yazıyı oku <svg class="arrow-icon arrow-icon--diagonal" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></span></span>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section-shell" id="hakkinda" aria-labelledby="about-title">
+      <p class="eyebrow" data-reveal>GENTLEVIE ÜZERİNE</p>
+      <div class="about-layout" data-reveal><h2 id="about-title">İyi yaşamak,<br>önce <em>fark etmek</em></h2><div class="about-copy"><img class="little-sun" src="assets/sun.svg" width="48" height="48" alt="" aria-hidden="true"><p>GentleVie, stil ve yaşam üzerine bağımsız bir editoryal bakış. İyi hissettiren bir kumaşın, yaşanmış bir mekânın, hatırlamaya değer bir anın peşinde.</p><p>Kendi ritmini bulmak için bazen yalnızca biraz durmak yeter. Burada o duraklara yer açıyoruz.</p><span class="signature">The art of living well</span></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <div class="footer-top"><p>Hayata biraz<br><em>daha yakından</em></p><a href="#baslangic" class="back-top" aria-label="Sayfanın başına dön"><svg class="arrow-icon arrow-icon--up" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></a></div>
+    <nav class="footer-nav" aria-label="Alt menü"><a href="#style">Style</a><a href="#living">Living</a><a href="#journal">Journal</a><a href="#hakkinda">Hakkında</a></nav>
+    <span class="footer-wordmark" aria-hidden="true">gentle vie</span>
+    <div class="footer-bottom"><span>© 2026 GENTLEVIE</span><span>THE ART OF LIVING WELL</span><button id="motion-toggle" aria-pressed="false"><span id="motion-label">Hareketi azalt</span> <svg class="arrow-icon arrow-icon--diagonal" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></button></div>
+  </footer>
+
+  <dialog class="menu-dialog" id="site-menu" aria-label="Ana menü">
+    <div class="menu-inner">
+      <div class="dialog-top">
+        <span class="wordmark">gentle vie</span>
+        <button class="close-button menu-close-button" id="menu-close" aria-label="Menüyü kapat"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="menu-content">
+        <div>
+          <nav aria-label="Ana menü">
+            <a href="#style">Style<svg class="arrow-icon arrow-icon--diagonal menu-arrow" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></a>
+            <a href="#living">Living<svg class="arrow-icon arrow-icon--diagonal menu-arrow" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></a>
+            <a href="#journal">Journal<svg class="arrow-icon arrow-icon--diagonal menu-arrow" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></a>
+            <a href="#hakkinda">Hakkında<svg class="arrow-icon arrow-icon--diagonal menu-arrow" viewBox="0 0 32 32" width="32" height="32" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></a>
+          </nav>
+        </div>
+        <div class="menu-picture">
+          <img src="assets/hero.webp" width="1536" height="1024" alt="Denize açılan traverten kemer.">
+          <p>Güzel şeylere<br><em>biraz yer aç</em></p>
+        </div>
+      </div>
+      <div class="menu-bottom"><span>THE ART OF LIVING WELL</span></div>
+    </div>
+  </dialog>
+
+  <dialog class="article-dialog" id="article-dialog" aria-labelledby="article-title">
+    <div class="article-toolbar"><a href="#journal" id="article-home" class="wordmark" aria-label="Journal'a dön">gentle vie</a><button class="close-button" id="article-close" aria-label="Yazıyı kapat">Kapat <span aria-hidden="true">×</span></button></div>
+    <div class="article-scroll" id="article-scroll" tabindex="0" role="region" aria-labelledby="article-title"><div class="article-hero"><img id="article-image" alt=""><span id="article-number"></span></div><article class="article-body"><p class="eyebrow" id="article-category"></p><h2 id="article-title" tabindex="-1"></h2><p id="article-subtitle" class="article-subtitle"></p><div class="article-paragraphs" id="article-paragraphs"></div><div class="article-end"><span class="signature">gentle vie journal</span><button class="understated-link" id="share-article">Bağlantıyı kopyala <svg class="arrow-icon arrow-icon--diagonal" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></button></div><p id="share-status" role="status" aria-live="polite"></p><button class="next-article" id="next-article"><span class="eyebrow">SIRADAKİ YAZI</span><span id="next-article-title"></span><svg class="arrow-icon" viewBox="0 0 32 32" width="24" height="24" aria-hidden="true" focusable="false"><use href="#icon-arrow"/></svg></button></article></div>
+  </dialog>
+  <noscript><style>.journey{height:auto}.stage{height:100svh}.scene-nav,.journey-progress{display:none}.story-open{cursor:default}</style><p class="noscript-note">Sahne geçişleri ve yazı pencereleri için tarayıcınızda JavaScript'i etkinleştirin.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,22 @@
+# Yerel işletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Yerel ortam ve araç dosyaları
+.env
+.env.*
+!.env.example
+node_modules/
+.openai/
+.vscode/
+*.log
+
+# Next.js and local migration tools
+.next/
+out/
+.vercel/
+.npm-cache/
+.migration-backup/
+*.tsbuildinfo
+.env*.local

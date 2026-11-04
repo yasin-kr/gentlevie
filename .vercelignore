@@ -1,0 +1,9 @@
+.migration-backup
+.npm-cache
+.next
+.git
+node_modules
+.env*
+!.env.example
+legacy
+tests
